@@ -49,9 +49,7 @@
         </div>
     </nav>
 
-    <div class="flex flex-1">
-        {{ $slot }}
-    </div>
+    {{ $slot }}
 
     <footer class="container flex items-center justify-between py-8 mx-auto border-t border-gray-800">
         <div>
